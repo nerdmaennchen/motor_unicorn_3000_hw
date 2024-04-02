@@ -435,12 +435,12 @@
       "cur_sense2"
     ],
     [
-      "a7414898-e1cd-499f-ba5d-c57d53dd7e89",
-      "cur_sense3"
-    ],
-    [
       "9a554d5a-6be5-4182-9919-2216990c6d51",
       "power"
+    ],
+    [
+      "a7414898-e1cd-499f-ba5d-c57d53dd7e89",
+      "cur_sense3"
     ]
   ],
   "text_variables": {}

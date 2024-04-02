@@ -1532,7 +1532,7 @@
 		(uuid "dd691e96-a1d5-4992-b4af-fbc95963a23a")
 	)
 	(no_connect
-		(at 41.91 54.61)
+		(at 25.4 49.53)
 		(uuid "d9c593f3-e681-4c7c-ac98-6d6ebf2c5b41")
 	)
 	(wire
@@ -1547,17 +1547,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 25.4) (xy 123.19 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0093d03a-5b12-41ff-9b36-f6e87a6b8bff")
-	)
-	(wire
-		(pts
-			(xy 100.33 48.26) (xy 87.63 48.26)
+			(xy 97.79 43.18) (xy 71.12 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1557,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 45.72) (xy 101.6 93.98)
+			(xy 99.06 40.64) (xy 99.06 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1577,13 +1567,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 116.84) (xy 97.79 53.34)
+			(xy 95.25 116.84) (xy 95.25 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "025da430-a31f-46b1-b6e9-c048ba602e0b")
+	)
+	(wire
+		(pts
+			(xy 107.95 25.4) (xy 123.19 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d491a4-a631-4471-a894-fc99539e1aab")
 	)
 	(wire
 		(pts
@@ -1597,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 81.28) (xy 102.87 43.18)
+			(xy 100.33 81.28) (xy 100.33 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1627,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 60.96) (xy 105.41 60.96)
+			(xy 123.19 60.96) (xy 102.87 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1647,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 123.19 43.18)
+			(xy 105.41 43.18) (xy 123.19 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1677,7 +1677,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 33.02) (xy 107.95 33.02)
+			(xy 107.95 22.86) (xy 107.95 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf8d440-afd5-4dab-baef-a80d9a145b25")
+	)
+	(wire
+		(pts
+			(xy 71.12 27.94) (xy 105.41 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1727,6 +1737,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 101.6) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14551d76-0720-4906-890c-6c3cfd59a6f1")
+	)
+	(wire
+		(pts
 			(xy 68.58 170.18) (xy 74.93 170.18)
 		)
 		(stroke
@@ -1747,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 30.48) (xy 41.91 30.48)
+			(xy 22.86 25.4) (xy 25.4 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 93.98) (xy 123.19 93.98)
+			(xy 99.06 93.98) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 41.91) (xy 41.91 41.91)
+			(xy 22.86 36.83) (xy 25.4 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 74.93) (xy 227.33 74.93)
+			(xy 50.8 60.96) (xy 48.26 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 80.01) (xy 227.33 80.01)
+			(xy 50.8 66.04) (xy 48.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 27.94) (xy 109.22 27.94)
+			(xy 71.12 22.86) (xy 107.95 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1917,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 111.76) (xy 123.19 111.76)
+			(xy 96.52 111.76) (xy 123.19 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1927,7 +1947,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 96.52) (xy 227.33 96.52)
+			(xy 50.8 82.55) (xy 48.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 45.72) (xy 101.6 45.72)
+			(xy 71.12 40.64) (xy 99.06 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 35.56) (xy 106.68 55.88)
+			(xy 104.14 30.48) (xy 104.14 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 30.48) (xy 109.22 30.48)
+			(xy 71.12 25.4) (xy 106.68 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2027,13 +2047,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 27.94) (xy 109.22 25.4)
+			(xy 50.8 99.06) (xy 48.26 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37f38c0b-d755-4bf2-bd93-93bf560b7ce3")
+		(uuid "3b31a922-17d2-4447-8b4e-7cc57297e76d")
 	)
 	(wire
 		(pts
@@ -2047,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 77.47) (xy 227.33 77.47)
+			(xy 50.8 63.5) (xy 48.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 36.83) (xy 41.91 36.83)
+			(xy 22.86 31.75) (xy 25.4 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2147,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 30.48) (xy 109.22 38.1)
+			(xy 106.68 25.4) (xy 106.68 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 25.4) (xy 41.91 25.4)
+			(xy 22.86 20.32) (xy 25.4 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2197,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 40.64) (xy 104.14 76.2)
+			(xy 101.6 35.56) (xy 101.6 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 27.94) (xy 41.91 27.94)
+			(xy 22.86 22.86) (xy 25.4 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 38.1) (xy 123.19 38.1)
+			(xy 106.68 38.1) (xy 123.19 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 55.88) (xy 123.19 55.88)
+			(xy 104.14 55.88) (xy 123.19 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 99.06) (xy 100.33 99.06)
+			(xy 123.19 99.06) (xy 97.79 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 50.8) (xy 41.91 50.8)
+			(xy 22.86 45.72) (xy 25.4 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 50.8) (xy 99.06 111.76)
+			(xy 96.52 45.72) (xy 96.52 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2447,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 50.8) (xy 99.06 50.8)
+			(xy 71.12 45.72) (xy 96.52 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 53.34) (xy 87.63 53.34)
+			(xy 95.25 48.26) (xy 71.12 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 116.84) (xy 97.79 116.84)
+			(xy 123.19 116.84) (xy 95.25 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2607,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 33.02) (xy 41.91 33.02)
+			(xy 22.86 27.94) (xy 25.4 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2757,16 +2777,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 20.32) (xy 123.19 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ee5de9-953a-49bc-8bde-5d95aa6aa4c5")
-	)
-	(wire
-		(pts
 			(xy 271.78 139.7) (xy 269.24 139.7)
 		)
 		(stroke
@@ -2777,7 +2787,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 99.06) (xy 227.33 99.06)
+			(xy 50.8 85.09) (xy 48.26 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2817,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 33.02) (xy 107.95 43.18)
+			(xy 105.41 27.94) (xy 105.41 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2837,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 35.56) (xy 106.68 35.56)
+			(xy 71.12 30.48) (xy 104.14 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2897,7 +2907,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 82.55) (xy 227.33 82.55)
+			(xy 50.8 68.58) (xy 48.26 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2937,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 81.28) (xy 102.87 81.28)
+			(xy 123.19 81.28) (xy 100.33 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2967,7 +2977,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 25.4) (xy 107.95 25.4)
+			(xy 71.12 20.32) (xy 123.19 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2987,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 99.06) (xy 100.33 48.26)
+			(xy 97.79 99.06) (xy 97.79 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3017,7 +3027,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 48.26) (xy 41.91 48.26)
+			(xy 22.86 43.18) (xy 25.4 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3027,7 +3037,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 39.37) (xy 41.91 39.37)
+			(xy 22.86 34.29) (xy 25.4 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3077,16 +3087,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 25.4) (xy 107.95 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0cb6e2f-c5e0-4aeb-9148-c06255d8e462")
-	)
-	(wire
-		(pts
 			(xy 55.88 180.34) (xy 74.93 180.34)
 		)
 		(stroke
@@ -3097,7 +3097,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 43.18) (xy 87.63 43.18)
+			(xy 100.33 38.1) (xy 71.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3107,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 44.45) (xy 41.91 44.45)
+			(xy 22.86 39.37) (xy 25.4 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3117,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 123.19 76.2)
+			(xy 101.6 76.2) (xy 123.19 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +3127,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 38.1) (xy 87.63 38.1)
+			(xy 102.87 33.02) (xy 71.12 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3177,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 40.64) (xy 104.14 40.64)
+			(xy 71.12 35.56) (xy 101.6 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3197,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 60.96) (xy 105.41 38.1)
+			(xy 102.87 60.96) (xy 102.87 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3348,8 +3348,19 @@
 		)
 		(uuid "ec3e8c95-0acd-4929-994d-642fb1148fd1")
 	)
+	(label "I2C_SDA"
+		(at 50.8 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17cc46bc-ed9e-43f0-8eac-c566c77ad3b9")
+	)
 	(label "RS485_NRE"
-		(at 39.37 25.4 180)
+		(at 22.86 20.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3371,24 +3382,24 @@
 		(uuid "26fad04e-c380-4e27-8dcf-b87aa7e5f530")
 	)
 	(label "I2C_SDA"
-		(at 224.79 99.06 180)
+		(at 50.8 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2a8ec16f-e213-4e71-91b1-387339ce3052")
 	)
 	(label "RS485_NRE"
-		(at 224.79 74.93 180)
+		(at 50.8 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3112ad76-325a-44e2-9ee3-20dbe844ccab")
 	)
@@ -3415,13 +3426,13 @@
 		(uuid "3d74d75d-7fc9-43e6-a015-d328a6f68e2c")
 	)
 	(label "RS485_RX"
-		(at 224.79 80.01 180)
+		(at 50.8 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "454b01b5-18b8-4076-8f0c-137ed1c485b4")
 	)
@@ -3437,7 +3448,7 @@
 		(uuid "48149267-4fa7-4b1c-a1d6-7dd3a4a59769")
 	)
 	(label "I2C_SDA"
-		(at 39.37 48.26 180)
+		(at 22.86 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3503,7 +3514,7 @@
 		(uuid "8b3e888f-ea61-4805-a476-98e488702e12")
 	)
 	(label "ADC_3"
-		(at 39.37 44.45 180)
+		(at 22.86 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3536,7 +3547,7 @@
 		(uuid "a2f401ca-7036-4788-9b9f-f1aaa994a3a4")
 	)
 	(label "RS485_TX"
-		(at 39.37 27.94 180)
+		(at 22.86 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3547,7 +3558,7 @@
 		(uuid "ad3b5d4a-1aae-4411-95d2-1730ec7a8c71")
 	)
 	(label "I2C_SCL"
-		(at 39.37 50.8 180)
+		(at 22.86 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3569,13 +3580,13 @@
 		(uuid "bd0a93cf-69a8-4121-b44b-4425e08cb2e1")
 	)
 	(label "RS485_DE"
-		(at 224.79 77.47 180)
+		(at 50.8 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c09fa0f9-b4a3-44ff-8d13-3861c4daa2a1")
 	)
@@ -3602,18 +3613,18 @@
 		(uuid "cfa44a88-ec26-43dc-86c9-4fdaca3a7825")
 	)
 	(label "I2C_SCL"
-		(at 224.79 96.52 180)
+		(at 50.8 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d0548120-31a2-48d8-865b-dac4a8a65e5f")
 	)
 	(label "RS485_DE"
-		(at 39.37 33.02 180)
+		(at 22.86 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3623,8 +3634,19 @@
 		)
 		(uuid "d555ad1e-a751-464b-bec1-b83b04b2eeb3")
 	)
+	(label "I2C_SCL"
+		(at 50.8 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9744ec4-3e9a-454c-bc4e-248cafe7e36e")
+	)
 	(label "ADC_1"
-		(at 39.37 39.37 180)
+		(at 22.86 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3635,7 +3657,7 @@
 		(uuid "dd60dc3d-1896-46e6-a100-725e6d7e8c7c")
 	)
 	(label "RS485_RX"
-		(at 39.37 30.48 180)
+		(at 22.86 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3646,13 +3668,13 @@
 		(uuid "dd82806b-3976-4fc1-b691-4a9436ee706d")
 	)
 	(label "RS485_TX"
-		(at 224.79 82.55 180)
+		(at 50.8 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ddf3ce66-c19a-43d6-b7fe-854c3f74b18c")
 	)
@@ -3679,7 +3701,7 @@
 		(uuid "e61857a4-42b0-407e-aee3-3a5684359ef9")
 	)
 	(label "ADC_2"
-		(at 39.37 41.91 180)
+		(at 22.86 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3723,7 +3745,7 @@
 		(uuid "f4d06548-562f-4ee4-b160-b95c30aa3dcc")
 	)
 	(label "ADC_0"
-		(at 39.37 36.83 180)
+		(at 22.86 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6423,7 +6445,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 72.39)
+		(at 25.4 58.42)
 		(size 22.86 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -6435,7 +6457,7 @@
 		)
 		(uuid "12ecf781-25de-46c6-84a6-57ee633aa015")
 		(property "Sheetname" "RS485"
-			(at 227.33 71.6784 0)
+			(at 25.4 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6466,7 @@
 			)
 		)
 		(property "Sheetfile" "rs485.kicad_sch"
-			(at 227.33 85.6746 0)
+			(at 25.4 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +6475,7 @@
 			)
 		)
 		(property "Feld2" ""
-			(at 227.33 72.39 0)
+			(at 25.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,42 +6484,42 @@
 			)
 		)
 		(pin "NRE" input
-			(at 227.33 74.93 180)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "f9a04a71-0ba6-43fa-934b-5a463852296d")
 		)
 		(pin "DE" input
-			(at 227.33 77.47 180)
+			(at 48.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "7554c2ad-f63e-4c61-8ca1-e798d7a926bf")
 		)
 		(pin "RX" output
-			(at 227.33 80.01 180)
+			(at 48.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "7dfe68c1-6734-4542-b865-8c2422df0cdd")
 		)
 		(pin "TX" input
-			(at 227.33 82.55 180)
+			(at 48.26 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "d9137be1-1301-4acc-9e66-efb2bf6610eb")
 		)
@@ -6926,7 +6948,7 @@
 		)
 	)
 	(sheet
-		(at 41.91 22.86)
+		(at 25.4 17.78)
 		(size 45.72 34.29)
 		(fields_autoplaced yes)
 		(stroke
@@ -6938,7 +6960,7 @@
 		)
 		(uuid "82afce1c-e9f1-4e79-92a2-91123355c306")
 		(property "Sheetname" "rp2040"
-			(at 41.91 22.1484 0)
+			(at 25.4 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +6969,7 @@
 			)
 		)
 		(property "Sheetfile" "rp2040.kicad_sch"
-			(at 41.91 57.7346 0)
+			(at 25.4 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +6978,7 @@
 			)
 		)
 		(pin "RS485_DE" output
-			(at 41.91 33.02 180)
+			(at 25.4 27.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6966,7 +6988,7 @@
 			(uuid "5ae9a40a-c073-433b-9ccb-124110c457c4")
 		)
 		(pin "PWM_H_2" output
-			(at 87.63 35.56 0)
+			(at 71.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +6998,7 @@
 			(uuid "7219c58a-8237-4e04-a81a-e63c88e7ddd8")
 		)
 		(pin "PWM_H_0" output
-			(at 87.63 25.4 0)
+			(at 71.12 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +7008,7 @@
 			(uuid "93d238ac-baaa-4e37-868c-74d874fb2870")
 		)
 		(pin "PWM_L_2" output
-			(at 87.63 38.1 0)
+			(at 71.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +7018,7 @@
 			(uuid "183c245a-04ea-45dc-ad87-f929afd50f84")
 		)
 		(pin "PWM_L_1" output
-			(at 87.63 33.02 0)
+			(at 71.12 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7028,7 @@
 			(uuid "77db84dd-b535-4da1-88a1-b3239366598f")
 		)
 		(pin "PWM_H_1" output
-			(at 87.63 30.48 0)
+			(at 71.12 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +7038,7 @@
 			(uuid "41d778f2-0e34-40b5-9dac-230719235c7b")
 		)
 		(pin "PWM_L_0" output
-			(at 87.63 27.94 0)
+			(at 71.12 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7048,7 @@
 			(uuid "97a155a2-be35-4792-8584-d87ff7f8d8d5")
 		)
 		(pin "I2C_SCL" bidirectional
-			(at 41.91 50.8 180)
+			(at 25.4 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7058,7 @@
 			(uuid "61af143f-177d-4435-9bfd-5e2ceca6d93c")
 		)
 		(pin "ADC_1" input
-			(at 41.91 39.37 180)
+			(at 25.4 34.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,7 +7068,7 @@
 			(uuid "4bba65eb-a2fb-4cbe-8297-b697aed77433")
 		)
 		(pin "ADC_3" input
-			(at 41.91 44.45 180)
+			(at 25.4 39.37 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +7078,7 @@
 			(uuid "7d283dfe-7bbb-4bf9-a507-52ac2d410064")
 		)
 		(pin "ADC_2" input
-			(at 41.91 41.91 180)
+			(at 25.4 36.83 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +7088,7 @@
 			(uuid "8ef54ebb-55ea-47f0-ae22-be5332550b8c")
 		)
 		(pin "ADC_0" input
-			(at 41.91 36.83 180)
+			(at 25.4 31.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7098,7 @@
 			(uuid "e5ef74a4-9012-4558-92ab-8558f87f2617")
 		)
 		(pin "RS485_NRE" output
-			(at 41.91 25.4 180)
+			(at 25.4 20.32 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +7108,7 @@
 			(uuid "d47bee61-b399-4707-8d7b-0d1d5424500a")
 		)
 		(pin "RS485_TX" output
-			(at 41.91 27.94 180)
+			(at 25.4 22.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +7118,7 @@
 			(uuid "35a5dc0b-41a6-4f11-b4a7-8e1f73931f8f")
 		)
 		(pin "RS485_RX" input
-			(at 41.91 30.48 180)
+			(at 25.4 25.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7106,7 +7128,7 @@
 			(uuid "4684b303-239a-4915-ba0e-28d93e52c0f6")
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 41.91 48.26 180)
+			(at 25.4 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +7138,7 @@
 			(uuid "1999d0ea-8c83-437e-8ced-82b7834637e8")
 		)
 		(pin "LED_OUT" output
-			(at 41.91 54.61 180)
+			(at 25.4 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,7 +7148,7 @@
 			(uuid "1a5d138d-7b47-4e49-943e-d7f1d3885dc2")
 		)
 		(pin "PWM_H_5" output
-			(at 87.63 50.8 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,7 +7158,7 @@
 			(uuid "c88c90f0-cfed-4905-906f-e212584faf56")
 		)
 		(pin "PWM_L_5" output
-			(at 87.63 53.34 0)
+			(at 71.12 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7146,7 +7168,7 @@
 			(uuid "ad96e5c5-09b5-4467-a025-cd38fa0d6c85")
 		)
 		(pin "PWM_L_3" output
-			(at 87.63 43.18 0)
+			(at 71.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,7 +7178,7 @@
 			(uuid "7ce850ad-21a3-4f48-acf0-c63e12df2b56")
 		)
 		(pin "PWM_H_4" output
-			(at 87.63 45.72 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7188,7 @@
 			(uuid "8e2a13a7-412e-4f79-83e1-f2006a2b5ece")
 		)
 		(pin "PWM_H_3" output
-			(at 87.63 40.64 0)
+			(at 71.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +7198,7 @@
 			(uuid "6a0e5c25-f5c4-49f6-b180-585a6502b2b0")
 		)
 		(pin "PWM_L_4" output
-			(at 87.63 48.26 0)
+			(at 71.12 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,8 +7216,8 @@
 		)
 	)
 	(sheet
-		(at 218.44 115.57)
-		(size 30.48 38.1)
+		(at 25.4 95.25)
+		(size 22.86 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7206,7 +7228,7 @@
 		)
 		(uuid "9a554d5a-6be5-4182-9919-2216990c6d51")
 		(property "Sheetname" "power"
-			(at 218.44 114.8584 0)
+			(at 25.4 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,13 +7237,33 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 218.44 154.2546 0)
+			(at 25.4 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d04242d-cc2b-4cc0-a38f-987bc8f4d7e6")
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 48.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4ab00b3-b3e5-48f6-a5c8-0e2216d135e4")
 		)
 		(instances
 			(project "motor_unicorn"
@@ -7309,7 +7351,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 92.71)
+		(at 25.4 78.74)
 		(size 22.86 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -7321,7 +7363,7 @@
 		)
 		(uuid "ca7056ea-07de-4c61-9685-e1c0e4cd1c9a")
 		(property "Sheetname" "IMU"
-			(at 227.33 91.9984 0)
+			(at 25.4 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,7 +7372,7 @@
 			)
 		)
 		(property "Sheetfile" "imu.kicad_sch"
-			(at 227.33 103.4546 0)
+			(at 25.4 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,22 +7381,22 @@
 			)
 		)
 		(pin "I2C_SCL" input
-			(at 227.33 96.52 180)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "59f24e87-9fe3-46cf-a0f7-d83ff98bd901")
 		)
 		(pin "I2C_SDA" input
-			(at 227.33 99.06 180)
+			(at 48.26 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "996149bc-298d-46e2-8576-1d6c70f0e5ba")
 		)
