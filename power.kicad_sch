@@ -3246,6 +3246,17 @@
 		)
 		(uuid "a2c375d0-a4ae-4546-9dce-7c726eb94b31")
 	)
+	(label "VPP_IN"
+		(at 120.65 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "130668dc-2239-465d-b61c-425a5c4a442b")
+	)
 	(hierarchical_label "I2C_SCL"
 		(shape bidirectional)
 		(at 48.26 132.08 180)
@@ -3354,7 +3365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 76.962 33.02 0)
 			(effects
 				(font
@@ -3363,7 +3374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.1652 34.29 0)
 			(effects
 				(font
@@ -3512,7 +3523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.868 137.16 90)
 			(effects
 				(font
@@ -3705,7 +3716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 77.47 71.1199 0)
 			(effects
 				(font
@@ -3714,7 +3725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.6252 73.66 0)
 			(effects
 				(font
@@ -4103,7 +4114,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "CJ9340"
 			(at 44.45 25.4 0)
 			(effects
 				(font
@@ -4321,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 31.75 33.528 90)
 			(effects
 				(font
@@ -4455,7 +4466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -4588,7 +4599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 98.298 81.28 90)
 			(effects
 				(font
@@ -4788,7 +4799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.868 127 90)
 			(effects
 				(font
@@ -5053,7 +5064,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 98.298 91.44 90)
 			(effects
 				(font
@@ -5186,7 +5197,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 69.088 27.94 90)
 			(effects
 				(font
@@ -5312,7 +5323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 19.812 34.29 0)
 			(effects
 				(font
@@ -5321,7 +5332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 20.0152 35.56 0)
 			(effects
 				(font
@@ -5390,7 +5401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.2652 86.36 0)
 			(effects
 				(font
@@ -5525,7 +5536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.6452 86.36 0)
 			(effects
 				(font
@@ -5593,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 44.45 22.86 0)
 			(effects
 				(font
@@ -5804,7 +5815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 31.75 135.8899 0)
 			(effects
 				(font
@@ -5813,7 +5824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 28.9052 138.43 0)
 			(effects
 				(font
@@ -5946,7 +5957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 69.088 38.1 90)
 			(effects
 				(font
@@ -6350,7 +6361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 59.69 22.86 0)
 			(effects
 				(font
@@ -6551,7 +6562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 127 34.29 0)
 			(effects
 				(font
@@ -6677,7 +6688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "2.2u"
 			(at 23.622 78.74 0)
 			(effects
 				(font
@@ -6686,7 +6697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 23.8252 80.01 0)
 			(effects
 				(font

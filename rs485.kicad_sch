@@ -1524,7 +1524,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "1k"
 			(at 77.47 31.75 90)
 			(effects
 				(font
@@ -1669,7 +1669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "icon:DFN8-3x3mm"
+		(property "Footprint" "unicorn_footprints:DFN8-3x3mm"
 			(at 60.96 59.69 0)
 			(effects
 				(font
@@ -1797,16 +1797,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 104.14 46.99 0)
+		(at 104.14 49.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "40c8d18f-8a71-4d2f-b131-6682b28689d9")
 		(property "Reference" "J4"
-			(at 105.41 46.9899 0)
+			(at 105.41 49.5301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +1815,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 105.41 49.5299 0)
+			(at 105.41 46.9901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,8 +1823,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 46.99 0)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical"
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 46.99 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1842,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 104.14 46.99 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,16 +1867,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 104.14 39.37 0)
+		(at 104.14 41.91 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "45db750d-0ce5-4f31-bfde-c845353673e0")
 		(property "Reference" "J3"
-			(at 105.41 39.3699 0)
+			(at 105.41 41.9101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +1885,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 105.41 41.9099 0)
+			(at 105.41 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,8 +1893,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 39.37 0)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical"
+			(at 104.14 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,7 +1903,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 39.37 0)
+			(at 104.14 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,7 +1912,16 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 104.14 39.37 0)
+			(at 104.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C395343"
+			(at 104.14 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

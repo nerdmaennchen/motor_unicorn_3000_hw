@@ -1,0 +1,218 @@
+(footprint "DFN8-3x3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.65 0 90)
+		(layer "F.SilkS")
+		(uuid "234ea1b9-9204-4667-8d94-f61cb753382a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN8-3x3mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2292b2f3-8740-4e8b-b829-75de67c26d3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b4a421b-00cd-46c5-80a4-20b8e7cd4e83")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29caea44-155a-4cb2-a013-af25b09fdcfc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71e77af3-d517-4c21-bf8e-a1ac282a62a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 -2.42)
+		(end 1.65 -2.42)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c47a753b-d26f-4b7c-aac9-b216b96e88fd")
+	)
+	(fp_line
+		(start -1.65 1.62)
+		(end -1.65 -2.42)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "150913d5-b83d-421e-9285-a567dd02a813")
+	)
+	(fp_line
+		(start -0.85 2.42)
+		(end -1.65 1.62)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "51ff3f82-3dc0-408d-b944-1956555d1047")
+	)
+	(fp_line
+		(start 1.65 -2.42)
+		(end 1.65 2.42)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "be28c496-a63b-4d30-a0ec-0941c2e5f297")
+	)
+	(fp_line
+		(start 1.65 2.42)
+		(end -0.85 2.42)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9b56fca-4450-4d58-b7de-e2ebcff34238")
+	)
+	(fp_line
+		(start -1.4 -2.17)
+		(end 1.4 -2.17)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1c96af1-4140-423c-9b1e-b861bbda500c")
+	)
+	(fp_line
+		(start -1.4 2.17)
+		(end -1.4 -2.17)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f21d869-5bf4-4185-a503-2ebda6a38531")
+	)
+	(fp_line
+		(start 1.4 -2.17)
+		(end 1.4 2.17)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "358ac62f-480e-484b-b9c2-ab531fad4a85")
+	)
+	(fp_line
+		(start 1.4 2.17)
+		(end -1.4 2.17)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "618eaed3-4bf4-4d42-8041-face052404af")
+	)
+	(pad "1" smd rect
+		(at -0.975 1.5)
+		(size 0.35 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "92a55091-9bbe-459b-a86b-eb8d0d333e61")
+	)
+	(pad "2" smd rect
+		(at -0.325 1.5)
+		(size 0.35 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "df99f45f-b19f-45c8-ad6a-9aa57bee5f92")
+	)
+	(pad "3" smd rect
+		(at 0.325 1.5)
+		(size 0.35 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "55abc034-5dae-4f3f-a028-f2af6be9eb72")
+	)
+	(pad "4" smd rect
+		(at 0.975 1.5)
+		(size 0.35 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ee235ca4-4ebe-414a-8a90-1c413e198677")
+	)
+	(pad "5" smd rect
+		(at 0.975 -1.5)
+		(size 0.35 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ed7f357b-5be8-43e8-8dc9-a49782ae66ab")
+	)
+	(pad "6" smd rect
+		(at 0.325 -1.5)
+		(size 0.35 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f94a0ecd-3764-4710-a6fc-339050ed709d")
+	)
+	(pad "7" smd rect
+		(at -0.325 -1.5)
+		(size 0.35 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8d733177-7b2d-40a2-8c25-a20c91ee1164")
+	)
+	(pad "8" smd rect
+		(at -0.975 -1.5)
+		(size 0.35 0.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "779eefd1-3df0-45d0-b49d-cb1623dfa7b1")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2.4 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fe14c22f-4d0e-4273-b95a-9c127e5249c8")
+	)
+)

@@ -453,7 +453,7 @@
 				)
 			)
 		)
-		(symbol "vib_sense:QMI8658"
+		(symbol "unicorn_lib:QMI8658"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -704,7 +704,25 @@
 							)
 						)
 					)
-					(number "6,7"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -818,6 +836,16 @@
 			(type default)
 		)
 		(uuid "2ff2f896-168f-4bff-8044-b62404077f70")
+	)
+	(wire
+		(pts
+			(xy 58.42 52.07) (xy 58.42 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45184875-0c9d-4908-99f2-31bb747d421e")
 	)
 	(wire
 		(pts
@@ -1014,7 +1042,7 @@
 		(uuid "46ab3615-d12d-4cc3-815d-82bead7fa264")
 	)
 	(symbol
-		(lib_id "vib_sense:QMI8658")
+		(lib_id "unicorn_lib:QMI8658")
 		(at 53.34 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1024,7 +1052,7 @@
 		(fields_autoplaced yes)
 		(uuid "0301941d-517e-4d31-a65f-58153a0e27c7")
 		(property "Reference" "U10"
-			(at 58.0741 32.6969 0)
+			(at 58.0741 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,11 +1061,12 @@
 			)
 		)
 		(property "Value" "QMI8658"
-			(at 53.34 43.18 0)
+			(at 58.0741 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm"
@@ -1097,7 +1126,7 @@
 		(pin "5"
 			(uuid "3b174bb3-e382-489f-9473-5d56e10fc961")
 		)
-		(pin "6,7"
+		(pin "6"
 			(uuid "2947ecd8-bd57-4c04-b811-e962932bd0b1")
 		)
 		(pin "8"
@@ -1105,6 +1134,9 @@
 		)
 		(pin "9"
 			(uuid "c7f304c7-922e-48e7-83f6-4319282284c5")
+		)
+		(pin "7"
+			(uuid "4b699b71-3b41-439e-9ff8-4c797dd7e8aa")
 		)
 		(instances
 			(project "motor_unicorn"
@@ -1643,6 +1675,72 @@
 			(project "motor_unicorn"
 				(path "/0a1df5c3-2d18-40b4-a193-f71ff4161835/ca7056ea-07de-4c61-9685-e1c0e4cd1c9a"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91083a6f-1873-4fa9-9a25-edf1670f343b")
+		(property "Reference" "#PWR011"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 58.7431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ce1fcb1-ea2c-431d-b2cc-be46bf5dbef5")
+		)
+		(instances
+			(project "motor_unicorn"
+				(path "/0a1df5c3-2d18-40b4-a193-f71ff4161835/ca7056ea-07de-4c61-9685-e1c0e4cd1c9a"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
