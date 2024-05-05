@@ -4473,6 +4473,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 223.52 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf93a938-8cf2-4282-bc90-df31c3bb336f")
 		)
@@ -5301,6 +5310,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 240.03 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +6264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 25.0952 182.88 0)
 			(effects
 				(font

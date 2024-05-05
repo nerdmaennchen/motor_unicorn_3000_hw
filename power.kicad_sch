@@ -1640,9 +1640,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1740,8 +1740,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2255,6 +2255,12 @@
 		(uuid "6f97e318-696b-41d6-9d00-11f415c26271")
 	)
 	(junction
+		(at 114.3 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "990a44e9-1d85-4d34-8bf0-fdf50708aa97")
+	)
+	(junction
 		(at 106.68 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2271,6 +2277,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbf34621-6107-4a14-9ce7-e4ec1a85f4f7")
+	)
+	(junction
+		(at 125.73 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0f52370-be61-406c-822e-dc81bfa06621")
 	)
 	(junction
 		(at 35.56 29.21)
@@ -2301,12 +2313,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2134f2a-8ab3-42db-8b3f-b9c4916b1a6d")
-	)
-	(junction
-		(at 114.3 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4bf2df0-719a-4749-b02d-1c9265259075")
 	)
 	(junction
 		(at 85.09 132.08)
@@ -2602,6 +2608,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 76.2) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2488d2-26e1-47d3-b0d3-14b1b8b1694a")
+	)
+	(wire
+		(pts
 			(xy 73.66 66.04) (xy 73.66 63.5)
 		)
 		(stroke
@@ -2669,6 +2685,16 @@
 			(type default)
 		)
 		(uuid "71a6a092-d9fd-4576-b0f1-872c3bdfe1a9")
+	)
+	(wire
+		(pts
+			(xy 125.73 72.39) (xy 125.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7308f53a-ba17-42b6-ba5b-6088d3cfca4d")
 	)
 	(wire
 		(pts
@@ -2742,6 +2768,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b424f05-3a66-46a6-8f82-adc7c6e809aa")
+	)
+	(wire
+		(pts
 			(xy 99.06 31.75) (xy 106.68 31.75)
 		)
 		(stroke
@@ -2792,13 +2828,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 72.39) (xy 114.3 76.2)
+			(xy 124.46 76.2) (xy 125.73 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7b07740-99f0-4af4-8ec3-e0470044ae58")
+		(uuid "a6ce56e4-9c46-465f-af0a-bc88465e3678")
 	)
 	(wire
 		(pts
@@ -2889,6 +2925,16 @@
 			(type default)
 		)
 		(uuid "be6fe69e-eba5-46a9-b502-984dbee8cc1d")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befd176d-9481-4e10-aad2-bb1eaf5cce72")
 	)
 	(wire
 		(pts
@@ -3191,7 +3237,7 @@
 	(text_box "+5V\n2A"
 		(exclude_from_sim no)
 		(at 15.24 54.61 0)
-		(size 105.41 53.34)
+		(size 127 53.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -3280,6 +3326,74 @@
 			(justify right)
 		)
 		(uuid "d20d9378-181f-4ad6-86dd-d071bb55529f")
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 120.65 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04c48d6a-0a7f-4564-9a44-af652b4e24b1")
+		(property "Reference" "D22"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab191644-b4d5-462a-ba1d-88ce3a99d242")
+		)
+		(pin "1"
+			(uuid "1ebd438f-62e7-40ca-8018-f958d8cd735a")
+		)
+		(instances
+			(project "motor_unicorn"
+				(path "/0a1df5c3-2d18-40b4-a193-f71ff4161835/9a554d5a-6be5-4182-9919-2216990c6d51"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VPP")
@@ -3374,7 +3488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.1652 34.29 0)
 			(effects
 				(font
@@ -3560,6 +3674,72 @@
 			(project "motor_unicorn"
 				(path "/0a1df5c3-2d18-40b4-a193-f71ff4161835/9a554d5a-6be5-4182-9919-2216990c6d51"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.73 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "260fb7fc-32cf-4b42-8258-1e32cd02f464")
+		(property "Reference" "#FLG06"
+			(at 125.73 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7721c8db-cc91-4146-967b-cffd9f12d752")
+		)
+		(instances
+			(project "motor_unicorn"
+				(path "/0a1df5c3-2d18-40b4-a193-f71ff4161835/9a554d5a-6be5-4182-9919-2216990c6d51"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -4010,7 +4190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 19.05 26.67 0)
 			(effects
 				(font
@@ -4952,7 +5132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 26.67 26.67 0)
 			(effects
 				(font
@@ -5332,7 +5512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 20.0152 35.56 0)
 			(effects
 				(font
@@ -5351,6 +5531,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 19.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 19.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Feld6" ""
 			(at 19.05 31.75 0)
 			(effects
 				(font
@@ -5648,7 +5846,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 72.39 0)
+		(at 129.54 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5657,7 +5855,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac12b534-94a5-415c-a23a-629aa0b120cb")
 		(property "Reference" "#PWR0161"
-			(at 114.3 76.2 0)
+			(at 129.54 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5864,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 114.3 68.8142 0)
+			(at 129.54 68.8142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 72.39 0)
+			(at 129.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 72.39 0)
+			(at 129.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,8 +5889,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 114.3 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 129.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 23.8252 80.01 0)
 			(effects
 				(font

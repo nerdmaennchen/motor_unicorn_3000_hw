@@ -1,0 +1,23 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "5mm",
+        "rows": "3",
+        "cols": "2"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "railslr",
+        "fillet": "2mm"
+    },
+    "page": {
+        "anchor": "tl",
+        "posx": "-42mm",
+        "posy": "-25mm"
+    },
+    "debug": {
+        "drawPartitionLines": "True"
+    }
+}

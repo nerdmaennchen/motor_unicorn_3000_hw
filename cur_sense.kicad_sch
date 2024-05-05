@@ -1351,7 +1351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 19.05 46.99 0)
 			(effects
 				(font

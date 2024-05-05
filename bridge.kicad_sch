@@ -1995,7 +1995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206101730_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--CJAC150N03A_C2963225.pdf"
+		(property "Datasheet" "~"
 			(at 133.35 40.64 0)
 			(effects
 				(font
@@ -2004,7 +2004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 150A 1.4mΩ@10V 130W N Channel DFN-8(5x6) MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
 			(at 133.35 40.64 0)
 			(effects
 				(font
@@ -2282,7 +2282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206101730_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--CJAC150N03A_C2963225.pdf"
+		(property "Datasheet" "~"
 			(at 133.35 58.42 0)
 			(effects
 				(font
@@ -2291,7 +2291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 150A 1.4mΩ@10V 130W N Channel DFN-8(5x6) MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
 			(at 133.35 58.42 0)
 			(effects
 				(font
